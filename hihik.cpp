@@ -146,7 +146,7 @@ void Mostrar_Circuito(bool cod1, bool cod2, bool cod3, bool cod4)
 {
 	// ------ EXPLIQUE O QUE O IF ELSE ABAIXO FAZ NO PROGRAMA ------
 	// Dica: Olhe os outros IF ELSE abaixo. Veja o que muda e tente interpretar.
-	// Se o numero do cod2 for verdadeiro, executa o que está no if
+	// Se o numero do cod2 for verdadeiro, o circuito acende.
 	if (cod2 == true)
 	{
 		cout << "	       ____	" << endl;
@@ -163,7 +163,7 @@ void Mostrar_Circuito(bool cod1, bool cod2, bool cod3, bool cod4)
 		cout << "	      |___|                     ____" << endl;
 	}
 
-    // Se o numero do cod4 for verdadeiro, executa o que está no if
+         // Se o numero do cod4 for verdadeiro, o circuito acende.
 
 	if (cod4 == true)
 	{
@@ -187,7 +187,7 @@ void Mostrar_Circuito(bool cod1, bool cod2, bool cod3, bool cod4)
 	cout << " | |	| /::\\  \\ | /::\\  \\ | /::\\  \\ | /::\\  \\ | " << endl;
 	cout << "_|_|_   |/:/\\:\\__\\|/:/\\:\\__\\|/:/\\:\\__\\|/::\\:\\__\\|	" << endl;
 
-	// Se o numero do cod1 for verdadeiro, executa o que está no if
+	// Se o numero do cod1 for verdadeiro, o circuito acende.
 
 	if (cod1 == true)
 	{
@@ -208,7 +208,7 @@ void Mostrar_Circuito(bool cod1, bool cod2, bool cod3, bool cod4)
 	cout << "		         ____   | |				" << endl;
 
 	
-	// Se o numero do cod3 for verdadeiro, executa o que está no if
+	// Se o numero do cod3 for verdadeiro, o circuito acende.
 	if (cod3 == true)
 	{
 		cout << "                        |||||___| |				" << endl;
